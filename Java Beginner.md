@@ -37,6 +37,21 @@ Most important variables for IB Java:
 
 We want to make sure we are using the right variable for what it will contain. This is so our value will just fit in. Code does work if you use a variable that is larger, but it is a waste and we want faster programs. 
 
+**Strings**
+```javascript
+public class Application {
+	public static void main(String[] args) {
+		int myInt= 69; 
+		
+		System.out.println("Hello"+" "+"Isabel"+ myInt);
+	//adding on strings is called concatenation 
+		double myDouble = 420.69;
+		System.out.println("My number is:" + myDouble +".");
+	}
+}
+```
+
+
 **While loops**
 ```javascript
 
