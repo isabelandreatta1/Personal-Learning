@@ -1,4 +1,4 @@
-**Types of variables**
+## Types of variables
 ```java script
 public class Application {
 
@@ -27,7 +27,7 @@ public class Application {
 	}
 }
 ```
-Most important variables for IB Java: 
+**Most important variables for IB Java:** 
 
 1. String
 2. Integer 
@@ -37,7 +37,7 @@ Most important variables for IB Java:
 
 We want to make sure we are using the right variable for what it will contain. This is so our value will just fit in. Code does work if you use a variable that is larger, but it is a waste and we want faster programs. 
 
-**Strings**
+## String
 ```javascript
 public class Application {
 	public static void main(String[] args) {
@@ -50,9 +50,7 @@ public class Application {
 	}
 }
 ```
-
-
-**While loops**
+## While loops
 ```javascript
 
 public class Application {
@@ -69,9 +67,17 @@ public class Application {
 	}
 }
 ```
-Difference between for loops and while loops: 
+**Difference between for loops and while loops:**
 
-**Counting number of bears using for loop** 
+
+format for loops: for([Initial expression];[condition];[incrementExpression])
+This is good for when you know already how many loops you want
+
+
+for while loops: 
+This is good for when you don't know how many loops you want 
+
+##Counting number of bears using for loop
 
 ```javascript
 public class Application {
