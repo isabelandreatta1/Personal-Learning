@@ -10,7 +10,8 @@ public class Application {
 		float myFloat = 243.3f; //similar to float 
 		char myChar = '@'; //short for characters, use single quotes, unicode 
 		boolean myBoolean = true; 
-		String myString = "I like to stroke cat's bellies in my spare time"; //uses "S" because is a class 
+		String myString = "I like to stroke cat's bellies in my spare time"; 
+		//uses "S" because is a class 
 
 		byte myByte = 127; 
 		
@@ -36,6 +37,24 @@ Most important variables for IB Java:
 
 We want to make sure we are using the right variable for what it will contain. This is so our value will just fit in. Code does work if you use a variable that is larger, but it is a waste and we want faster programs. 
 
+**While loops**
+```javascript
+
+public class Application {
+	public static void main(String[] args) {
+		
+		int value = 0; 
+		
+		while(value < 10) //condition is in brackets
+		{ //what's inside curly brackets is when the loop will stop 
+			System.out.println("Hello" + value );
+			
+			value = value + 1;
+		}
+	}
+}
+```
+Difference between for loops and while loops: 
 
 **Counting number of bears using for loop** 
 
