@@ -1,3 +1,5 @@
+# Java Level 1 
+
 ## Types of variables
 ```java script
 public class Application {
@@ -77,7 +79,7 @@ This is good for when you know already how many loops you want
 for while loops: 
 This is good for when you don't know how many loops you want 
 
-##Counting number of bears using for loop
+## For loops
 
 ```javascript
 public class Application {
