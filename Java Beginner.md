@@ -10,7 +10,7 @@ public class Application {
 		float myFloat = 243.3f; //similar to float 
 		char myChar = '@'; //short for characters, use single quotes, unicode 
 		boolean myBoolean = true; 
-		String myString = "I like to stroke cat's bellies in my spare time" //uses "S" because is a class 
+		String myString = "I like to stroke cat's bellies in my spare time"; //uses "S" because is a class 
 
 		byte myByte = 127; 
 		
