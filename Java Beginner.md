@@ -95,3 +95,20 @@ public class Application {
 	}
 }
 ```
+**Printf**
+```javascript
+public class Application {
+	public static void main(String[] args) {
+		
+		for(int i = 1; i < 6; i = i + 1 ) { //first semicolon is what is before the code and second is condition
+			System.out.printf(i + " Days without an accident: %d\n", i);
+		}	
+	}
+	
+}
+```
+
+- printf uses arguments
+- first argument is string (format specifier) which uses special symbols and will be replaced with our variables
+- %d -> print this integers but replace with the variable after the comma
+- Printf does not have new lines, replace this by using /n 
