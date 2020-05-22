@@ -112,3 +112,30 @@ public class Application {
 - first argument is string (format specifier) which uses special symbols and will be replaced with our variables
 - %d -> print this integers but replace with the variable after the comma
 - Printf does not have new lines, replace this by using /n 
+
+## If Conditions 
+
+```javascript
+
+public class Application {
+	public static void main(String[] args) {
+		
+		int myInt = 15;
+		
+		if(myInt > 30) {
+			System.out.println("That's true brotha");
+		}
+		
+		else if(myInt < 10){ 
+			System.out.println("That ain't true brotha");
+		}
+		
+		else {
+			System.out.println("Nah nothing ain't real");
+		}
+		/* != means not equal to 
+		 = one = means assigning, while == means testing 
+		else if is an alternative, only happens if top is true*/
+	}
+}
+```
