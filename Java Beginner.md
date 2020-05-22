@@ -157,3 +157,47 @@ public class Application {
 	}
 }
 ```
+## User Input 
+**With String**
+```javascript
+import java.util.Scanner;
+
+public class Application {
+	public static void main(String[] args) {
+		
+		//create scanner object
+		Scanner input = new Scanner(System.in); 
+		
+		//output prompt
+		System.out.println("What's your name:");
+		
+		//wait for the user to enter a line 
+		String line = input.nextLine();
+		
+		//Tell them what they entered 
+		System.out.println("Welcome Back " + line);
+	}
+}
+
+```
+**With float**
+```javascript
+import java.util.Scanner;
+
+public class Application {
+	public static void main(String[] args) {
+		
+		//create scanner object
+		Scanner input = new Scanner(System.in); 
+		
+		//output prompt
+		System.out.println("Enter a floating point value");
+		
+		//wait for the user to enter a line 
+		double value = input.nextDouble();
+		
+		//Tell them what they entered 
+		System.out.println("Number " + value);
+	}
+}
+```
