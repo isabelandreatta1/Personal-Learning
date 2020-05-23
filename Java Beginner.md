@@ -232,3 +232,28 @@ public class Application {
 	}
 }
 ``` 
+## Switch
+```javascript
+import java.util.Scanner;
+
+public class Application {
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in); 
+		
+		System.out.println("Enter command");
+		String text = input.nextLine();
+		
+		switch(text) {
+		
+		case "start":
+			System.out.println("Machine started dawg");
+			break; 
+			
+		default:
+			System.out.println("Password not recognised");
+					
+		}	
+	}	
+}
+```
