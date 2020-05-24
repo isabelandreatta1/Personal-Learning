@@ -39,6 +39,8 @@ public class Application {
 
 We want to make sure we are using the right variable for what it will contain. This is so our value will just fit in. Code does work if you use a variable that is larger, but it is a waste and we want faster programs. 
 
+The difference between String and other variables (such as int) is that String is a class and other are primitive. Primitive means that it is already built in Java and is like a box that contains values. A class is more like an address or a reference to something. This is conveninent since we don't know exactly how much a our text will be for our String. 
+
 ## String
 ```javascript
 public class Application {
@@ -290,4 +292,35 @@ public class Application {
 	for(int i = 0; i < numbers.length; i ++) 
 		System.out.println(numbers[i]);
 	}	 
+}
+
+public class Application {
+	public static void main(String[] args) {	
+		String[] words = new String[3];
+		
+		words[0] = "Hello";
+		words[1] = "to";
+		words[2] = "you";
+		
+		System.out.println(words[2]);
+		
+		String[] fruits = {"apple", "orange", "banana"};
+		
+		for(String fruit: fruits) {
+			System.out.println(fruit);
+		}
+		
+		//defaults 
+		int value = 0; 
+		
+		String text = null;
+		
+		System.out.println(text);
+		
+		String[] texts = new String[2]; 
+		
+		System.out.println(texts[0]);
+		
+		texts[0] = "one";
+	}
 }
