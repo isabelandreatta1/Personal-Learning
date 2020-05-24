@@ -260,6 +260,8 @@ public class Application {
 }
 ```
 ## Arrays
+```javascript
+
 import java.util.Scanner;
 
 public class Application {
@@ -324,3 +326,5 @@ public class Application {
 		texts[0] = "one";
 	}
 }
+```
+## Multi-Dimmensional Arrays 
