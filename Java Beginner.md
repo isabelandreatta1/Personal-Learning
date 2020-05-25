@@ -1,5 +1,8 @@
 # Java Level 1 
 
+## Concept of Classes and Objects 
+A class can be seen as a blueprint to create an object. 
+
 ## Types of variables
 ```java script
 public class Application {
