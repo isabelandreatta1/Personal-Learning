@@ -86,3 +86,23 @@ public class App {
 	}
 }
 ```
+## Tell if a number is odd or even
+```javascript
+import java.util.Scanner;
+public class App {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("Input number");
+		int num = input.nextInt(); 
+		
+		//% is for modulus 
+		if((num %2) == 0){
+			System.out.println("It is an even number");
+		}
+		else {
+			System.out.println("It is an odd number");
+		}	
+	}
+}
+``` 
