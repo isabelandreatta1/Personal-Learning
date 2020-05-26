@@ -1,8 +1,5 @@
 # Java Level 1 
 
-## Concept of Classes and Objects 
-A class can be seen as a blueprint to create an object. 
-
 ## Types of variables
 ```java script
 public class Application {
@@ -358,6 +355,58 @@ public class Application {
 			}
 			System.out.println();
 		}
+	}
+}
+```
+## Concept of Classes and Objects 
+A class can be seen as a blueprint to create an object. 
+```javascript
+class Person{
+	
+	//Instance variables (data or "state")
+	String name; 
+	int age; 
+	String sex; 
+	
+	/* classes can obtain
+	 1. Data / State 
+	 2.Subroutines (Methods)
+	 */
+}
+
+class Book{
+	String title; 
+	String author; 
+	int pagenb; 
+	int published;
+	
+}
+
+public class Application {
+	public static void main(String[] args) {
+		
+	Person person1 = new Person(); 
+	
+	person1.name = "Karen White"; 
+	person1.age = 43; 
+	person1.sex = "Female"; 
+	
+	Person person2 = new Person(); 
+	 
+	person2.name = "Chad Bigboi"; 
+	person2.age = 19; 
+	person2.sex = "Male"; 
+	
+	System.out.println(person1.name + " " + person1.age);
+	
+	Book book1 = new Book(); 
+	book1.title = "Don Quixote"; 
+	book1.author = "Miguel de Cervantes"; 
+	book1.pagenb = 992; 
+	book1.published = 1605; 
+		
+		
+		
 	}
 }
 ```
