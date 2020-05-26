@@ -410,3 +410,54 @@ public class Application {
 	}
 }
 ```
+## Methods
+```javascript
+class Person{
+	
+	//Instance variables (data or "state")
+	String name; 
+	int age; 
+	String sex; 
+	
+	/* classes can obtain
+	 1. Data / State 
+	 2.Subroutines (Methods)
+	 */
+	void speak() { //can be considered as a behaviour of the object
+		for(int i=0; i<3; i++) {
+			System.out.println("My name is: " + name + " and I am " + age + " years old.");
+		
+		}
+	}
+	
+	void gender() {
+		if(sex == "female") {
+			System.out.println("My sex is " + sex + " and I'm a feminist");
+		}
+		
+		else {
+			System.out.println("yuh, brudda. I am a " + sex);
+		}
+	}
+}
+public class Application {
+	public static void main(String[] args) {
+		
+	Person person1 = new Person(); 
+	
+	person1.name = "Karen White"; 
+	person1.age = 43; 
+	person1.sex = "female"; 
+	person1.speak();
+	person1.gender(); 
+	
+	Person person2 = new Person(); 
+	 
+	person2.name = "Chad Bigboi"; 
+	person2.age = 19; 
+	person2.sex = "male"; 
+	person2.speak();
+	person2.gender(); 
+	}
+}
+```
