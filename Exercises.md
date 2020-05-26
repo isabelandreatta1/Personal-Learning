@@ -47,3 +47,42 @@ public class Application {
 	}
 }
 ```
+## Simple Calculator 
+```javascript
+import java.util.Scanner;
+
+public class App {
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in); 
+
+		System.out.println("Input first number:");
+		double num1 = scanner.nextDouble(); 
+		System.out.println("Input second number:");
+		double num2 = scanner.nextDouble(); 
+		
+		System.out.println("Input calculation:");
+		String text = scanner.next(); 
+		System.out.println(text);
+		
+		switch(text) {
+		
+		case "addition":
+			System.out.println(num1 + num2);
+			break; 
+		
+		case "subtraction":
+			System.out.println(num1 - num2);
+			break; 
+			
+		case "division":
+			System.out.println(num1/num2);
+			break; 
+		
+		case "multiplication":
+			System.out.println(num1 * num2);
+			break; 	
+		}
+	}
+}
+```
