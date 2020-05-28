@@ -17,9 +17,9 @@
 | Relational  | <= | lesser or equal to | 4 <=5 | True | 
 | Relational  | <= | lesser or equal to | 4 <=5 | True | 
 | Relational  | != | not equal to| 4!=5 | True | 
-| Content Cell  | ! | Logical NOT (opposite of Logical OR)| boolean a = true; boolean b = false; !(a && b)| True | 
-| Content Cell  | && | Logical AND| boolean a = true ; boolean b = false; (a && b) | False | 
-| Content Cell  | *two vertical lines* | Logical OR| boolean a = true; boolean b = false; (a *two vertical lines* b)| True | 
+| Boolean | ! | Logical NOT (opposite of Logical OR)| boolean a = true; boolean b = false; !(a && b)| True | 
+| Boolean  | && | Logical AND| boolean a = true ; boolean b = false; (a && b) | False | 
+| Boolean | *two vertical lines* | Logical OR| boolean a = true; boolean b = false; (a *two vertical lines* b)| True | 
 
 
 ## String Methods
