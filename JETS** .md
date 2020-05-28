@@ -1,7 +1,29 @@
 
-### String Methods
+# Important for IB JETS (Java Examination Tool Subset) 
 
-**Import for IB JETS (Java Examination Tool Subset)** 
+## Operators 
+
+
+| Type  | Operator | Description | Code | Result |
+| ------------- | ------------- |------------- |------------- |------------- |
+| Arithmetic  | + | Addition |  21 + 9 | 30 | 
+| Arithmetic  | - | Subtraction | 30 - 9 | 21 | 
+| Arithmetic  | * | Multiplication | 3 * 7 | 21 | 
+| Arithmetic | / | Division| 21 / 3 | 7 | 
+| Arithmetic | % | Modulus| 21%4 | 1 |  
+| Relational | == | equal to | 3 == 4 | False | 
+| Relational  | > | greater than | 3 > 4 | False | 
+| Relational |  >= | greater or equal to| 4 >= 4 | True | 
+| Relational  | <= | lesser or equal to | 4 <=5 | True | 
+| Relational  | <= | lesser or equal to | 4 <=5 | True | 
+| Relational  | != | not equal to| 4!=5 | True | 
+| Content Cell  | ! | Logical NOT (opposite of Logical OR)| boolean a = true; boolean b = false; !(a && b)| True | 
+| Content Cell  | && | Logical AND| boolean a = true ; boolean b = false; (a && b) | False | 
+| Content Cell  | *two vertical lines* | Logical OR| boolean a = true; boolean b = false; (a *two vertical lines* b)| True | 
+
+
+## String Methods
+
 | Method | String1 | String2| Result | Notes 
 | ------------- | ------------- | ------------- | ------------- | ------------- | 
 | + | String s1 = "Hello"; String s2 = "my name is"; | System.out.println(s1 + s2); | Hello my name is"; | | 
