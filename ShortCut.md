@@ -1,10 +1,10 @@
 
 ### String Methods
 
-For concatenation 
-
+**Import for IB JETS (Java Examination Tool Subset)** 
 | Method | String1 | String2| Result | Notes 
 | ------------- | ------------- | ------------- | ------------- | ------------- | 
+| + | String s1 = "Hello"; String s2 = "my name is"; | System.out.println(s1 + s2); | Hello my name is"; | | 
 | .subString(startPos, endPos)  | String s1 = "Hello my name is"; |String s2 = s1.substring(0,5); | Hello | Includes puncuation and spaces, default starts from 0 | 
 | .length | String s1 = "Hello my name is";  | int s2 = s1.length; | 5 | Includes puncuation and spaces | 
 | .toUpperCase | String s1 = "Hello my name is"; | String s2 = s1.toUpperCase(); | HELLO MY NAME IS | Remember brackets at end| 
